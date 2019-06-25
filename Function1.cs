@@ -27,7 +27,7 @@ namespace TestAzureFunction
 
             return name != null
                 ? (ActionResult)new OkObjectResult($"Hello, {name}")
-                : new BadRequestObjectResult("Please pass any xyz name on the query string or in the request body");
+                : new BadRequestObjectResult("Please pass any in the request body");
         }
     }
 }
